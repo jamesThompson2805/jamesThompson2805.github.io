@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+---
+
+<style>
+a {
+    text-decoration: none;
+    color: #551a8b;
+}
+</style>
+
+<h2> Projects as they appear: </h2>
+<ul>
+    {% for project in site.projects %}
+        <br>
+        <li>
+            <h3><a href="{{ project.url }}"> {{ project.title }} </a> </h3>
+            <p>{{project.description | markdownify }} </p>
+        </li>
+    {% endfor %}
+</ul>
+                

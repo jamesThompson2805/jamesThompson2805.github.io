@@ -1,0 +1,2 @@
+- [ ] Make footer fill remaining bottom space
+- [ ] Make the nav bar

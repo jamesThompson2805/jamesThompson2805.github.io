@@ -1,0 +1,30 @@
+@import "main";
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+    background: $bg;
+}
+
+.navbar > a {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    background: $bg-lighter;
+    color: $fg;
+    text-decoration: none;
+
+}
+.navbar > a:first-child {
+    margin-right: auto;
+}
+
+.navbar > a:hover {
+    background: $fg;
+    color: $bg;
+}
+
